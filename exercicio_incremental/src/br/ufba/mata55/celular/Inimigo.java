@@ -1,8 +1,11 @@
 package br.ufba.mata55.celular;
 
+import java.util.LinkedList;
 import java.util.Random;
 
 public class Inimigo extends Veneno {
+	
+	static LinkedList<Inimigo> listaInimigo = new LinkedList<>();
 
 	private int velX, velY;
 	private Random r = new Random();

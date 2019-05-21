@@ -6,7 +6,7 @@ public abstract class Entidade {
 	
 	protected int x, y, tamanho;
 	protected boolean ativo = true;
-	
+		
 	public Entidade(int x, int y, int tamanho) {
 		this.x = x;
 		this.y = y;
